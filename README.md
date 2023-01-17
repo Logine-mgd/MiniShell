@@ -10,8 +10,7 @@ using waitpid().  After this part  we will able to execute commands like:
  ls -al
 
 2. File redirection: If any of the input/output/error is different than 0 in the
-Command struct, then create the files, and use dup2() to redirect file descriptors 0, 1,
-or 2 to the new files. See the example ls_output.cc to see how to do redirection. After
+Command struct, then create the files.After
 this part you have to be able to execute commands like:
  ls -al > out
 
