@@ -1,16 +1,4 @@
 
-/*
- * CS-413 Spring 98
- * shell.y: parser for shell
- *
- * This parser compiles the following grammar:
- *
- *	cmd [arg]* [> filename]
- *
- * you must extend it to understand the complete shell grammar
- *
- */
-
 %token	<string_val> WORD
 
 %token 	NOTOKEN GREAT NEWLINE LESS GREATGREAT GREATAMPERSAND PIPE AMPERSAND AMPGREATGREAT LESSLESS 
